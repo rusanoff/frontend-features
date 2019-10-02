@@ -10,6 +10,33 @@ for (let i = 0, { length } = array; i < length; i++) {
 }
 ```
 
+### Objects
+
+**Use `Object.assign()` to set default object properties**
+
+```javascript
+const user = {
+  id: 100,
+  name: 'Andrew',
+  // has not property `age`
+};
+
+const createUser = (userObj) => {
+  const newUser = Object.assign(
+    {
+      id: null,
+      name: 'Unknown',
+      age: 'Age is not specified',
+    },
+    userObj,
+  );
+
+  // ...
+};
+
+createUser(user);
+```
+
 ### Conditions
 
 **Use Map instead of Switch-Case**
@@ -22,7 +49,7 @@ const cars = new Map()
 
 const getCarsByState = (state) => {
   return cars.get(state) || [];
-}
+};
 
 console.log(getCarsByState()); // []
 console.log(getCarsByState('usa')); // ['Ford', 'Dodge']

@@ -5,25 +5,25 @@
 **Filter array by logically truthy elements**
 
 ```javascript
-const filteredArray = [false, '', null, undefined, NaN, 0].filter(Boolean);
+const filteredArray = [false, '', null, undefined, NaN, 0].filter(Boolean); // []
 ```
 
 **Filter array by unique elements**
 
 ```javascript
-const uniqueArray = [...new Set([1,1,1,2,3,2,1,6])];
+const uniqueArray = [...new Set([1,1,1,2,3,2,1,6])]; // [1, 2, 3, 6]
 ```
 
 **Convert array of numbers to array of strings**
 
 ```javascript
-const stringArray = numberArray.map(String);
+const stringArray = [1, 2, 3].map(String); // ['1', '2', '3']
 ```
 
 **Quickly create a numeric array**
 
 ```javascript
-const numArray = Array.from(new Array(100), (el, i) => i);
+const numArray = Array.from(new Array(100), (el, i) => i); // [0, 1, 2, ..., 99]
 ```
 
 ***
@@ -33,14 +33,14 @@ const numArray = Array.from(new Array(100), (el, i) => i);
 **Create absolutely empty objects**
 
 ```javascript
-const emptyObj = Object.create(null);
+const emptyObj = Object.create(null); // {} without `__proto__`
 ```
 
 **Adding properties by condition**
 
 ```javascript
-const user = { id: 312, name: 'Пётр Иванов' };
-const password = 'Пароль!';
+const user = { id: 100, name: 'Andrew' };
+const password = 'password';
 const hasPassword = true;
 const userWithPassword = {
   ...user,
@@ -98,5 +98,5 @@ console.log(~~(-21.777)); // -21
 **Creating Two-Factor authentication codes**
 
 ```javascript
-const code = Math.floor(Math.random() * 1000000).toString().padStart(6, "0");
+const code = Math.floor(Math.random() * 1000000).toString().padStart(6, "0"); // '034592'
 ```
