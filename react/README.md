@@ -1,1 +1,1 @@
-# React.js: Полезные материалы
+# React.js: Tips And Tricks

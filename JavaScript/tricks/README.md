@@ -11,7 +11,7 @@ const filteredArray = [false, '', null, undefined, NaN, 0].filter(Boolean); // [
 **Filter array by unique elements**
 
 ```javascript
-const uniqueArray = [...new Set([1,1,1,2,3,2,1,6])]; // [1, 2, 3, 6]
+const uniqueArray = [...new Set([1, 1, 1, 2, 3, 2, 1, 6])]; // [1, 2, 3, 6]
 ```
 
 **Convert array of numbers to array of strings**

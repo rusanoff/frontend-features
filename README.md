@@ -1,4 +1,3 @@
-# Полезные материалы для Frontend разработчика
+# Frontend Tips And Tricks
 
-Здесь собираются полезные особенности, трюки и неочевидные возможности
-клиентской разработки
+Frontend developer notes. In order not to lose :)
