@@ -9,5 +9,5 @@ on this topic in this repository.
 
 **Links to:**
 
-* [Tips](https://github.com/rusanoff/frontend-features/tree/master/JavaScript/improved-code)
-* [Tricks](https://github.com/rusanoff/frontend-features/tree/master/JavaScript/tricks)
+* [Tips](https://github.com/rusanoff/frontend-features/tree/master/javascript/improved-code)
+* [Tricks](https://github.com/rusanoff/frontend-features/tree/master/javascript/tricks)
