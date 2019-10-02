@@ -1,4 +1,4 @@
-# JavaScript Improved Code
+# JavaScript Code Improvement Tips
 
 ### Arrays
 
